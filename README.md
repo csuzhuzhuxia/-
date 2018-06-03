@@ -3,7 +3,8 @@
 一款越野赛事的app，包括java后台，比较小，没有用一些框架，但是还是进行了一些封装
 包含注册，登陆，个人主页，赛事查看，赛事报名，赛事进行(调用了百度sdk)，社区（模仿qq空间，尚未完善)等等  
 
-运行顺序：
+运行顺序：  
+
 1.先创建数据库，数据库名为webgis,再执行crossEvent.sql文件，本人使用postgresql数据库，如使用mysql数据库，就不用添加spatial-ref-sys表，在sql进行相应的注释  
 
 2.运行CrossCountry 文件夹内的java后台web项目，本人使用IDEA构建，是web项目，启动tomcat服务器  
